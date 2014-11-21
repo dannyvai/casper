@@ -468,6 +468,8 @@ margin on the iframe, cause it breaks stuff. */
    4. General - The main styles for the the theme
    ========================================================================== */
 
+/*Added by notamacuser */
+
 .main-content-posts {
     float: left;
     display: table;
@@ -488,6 +490,7 @@ margin on the iframe, cause it breaks stuff. */
     overflow: hidden;
 }
 
+/* Posts Thumb image layout */
 .post-img-thumb {
     align: left;
     display: table-cell;
@@ -501,7 +504,7 @@ margin on the iframe, cause it breaks stuff. */
     display:block; margin:0 auto;
 }
 
-.post-content {
+.post-partial-content-div{
     align: right;
     display: table-cell;
     width: 80%;
@@ -510,6 +513,7 @@ margin on the iframe, cause it breaks stuff. */
     padding: 10px;
 }
 
+/* end of addition notamacuser*/
 
 /* Big cover image on the home page */
 .main-header {
@@ -929,7 +933,6 @@ body:not(.post-template) .post-title {
 /* Keep images centred and within the bounds of the post-width */
 .post-content img {
     display: block;
-    max-width: 100%;
     height: auto;
     margin: 0 auto;
     padding: 0.6em 0;
