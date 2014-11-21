@@ -17,9 +17,25 @@
 </header>
 
 {{! The main content area on the homepage }}
-<main id="content" class="content" role="main">
 
-    {{! The tag below includes the post loop - partials/loop.hbs }}
-    {{> "loop"}}
+<div class="main-content-posts">
+	<main id="content" class="content" role="main">
 
-</main>
+	    {{! The tag below includes the post loop - partials/loop.hbs }}
+	    {{> "loop"}}
+
+	</main>
+</div>
+<div class="main-content-about">
+
+	<h4>Donate:</h4>
+	<p>
+		<b>Bitcoin:</b>
+		<br />
+		<button class="bitcoinate" data-size="20" data-address="1LFk8i74MTBEKfViAfvKsbX4mG2iFfRiBF"><span></span>bitcoinate</button>
+		<br />
+		1LFk8i74MTBEKfViAfvKsbX4mG2iFfRiBF
+		<br />
+		<img src="/content/images/2014/11/bitcoin_qr.jpg" />
+	</p>
+</div>

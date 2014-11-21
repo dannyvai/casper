@@ -18,6 +18,8 @@
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
 
+    <script src="//gitcdn.org/libs/bitcoinate/0.2.1/index.min.js"></script>
+
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
 </head>
@@ -26,7 +28,10 @@
     {{! Everything else gets inserted here }}
     {{{body}}}
 
+
+
     <footer class="site-footer clearfix">
+         <button class="bitcoinate" data-size="30" data-address="12v7mDmxrRKCBL6Ywecfj2X4VZ4Aqmjmyk">bitcoinate</button>
          <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
          <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
     </footer>

@@ -468,6 +468,49 @@ margin on the iframe, cause it breaks stuff. */
    4. General - The main styles for the the theme
    ========================================================================== */
 
+.main-content-posts {
+    float: left;
+    display: table;
+    width: 70%;
+    height: 100%;
+    margin-bottom: 5rem;
+    text-align: left;
+    overflow: hidden;
+}
+
+.main-content-about {
+    float: right;
+    display: table;
+    width: 30%;
+    height: 100%;
+    margin-bottom: 5rem;
+    text-align: left;
+    overflow: hidden;
+}
+
+.post-img-thumb {
+    align: left;
+    display: table-cell;
+    width: 20%;
+    vertical-align:middle;
+    text-align:center;
+    overflow: hidden;
+}
+
+.post-img-thumb img{
+    display:block; margin:0 auto;
+}
+
+.post-content {
+    align: right;
+    display: table-cell;
+    width: 80%;
+    text-align: left;
+    overflow: hidden;
+    padding: 10px;
+}
+
+
 /* Big cover image on the home page */
 .main-header {
     position: relative;
@@ -845,6 +888,7 @@ body:not(.post-template) .post-title {
 /* ==========================================================================
    5. Single Post - When you click on an individual post
    ========================================================================== */
+
 
 .post-template .post-header {
    margin-bottom: 3.4rem;
